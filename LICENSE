@@ -660,12 +660,12 @@ if any, to sign a "copyright disclaimer" for the program, if necessary.
 For more information on this, and how to apply and follow the GNU AGPL, see
 <https://www.gnu.org/licenses/>.
 
-Exception: Linking with Unity Engine
+==============================================================================
+ADDITIONAL PERMISSIONS AND EXCEPTIONS (As permitted under AGPLv3 Section 7)
+==============================================================================
 
-Permission is hereby granted to link this program's outputs 
-bindings with the proprietary DLLs of the Unity Engine (including 
-but not limited to UnityEngine.dll and UnityEditor.dll). 
-You may distribute the resulting combined binary under terms of your choice,
-provided that the source code for 
-this program's components remains fully accessible under the terms of the GNU 
-Affero General Public License v3.
+Exception 1: Linking with Unity Engine
+Permission is hereby granted to link this program's outputs and bindings with the proprietary DLLs of the Unity Engine (including but not limited to UnityEngine.dll and UnityEditor.dll). You may distribute the resulting combined binary under terms of your choice, provided that the source code for this program's components remains fully accessible under the terms of the GNU Affero General Public License v3.
+
+Exception 2: Horizon Sandbox Game Integration
+Permission is hereby granted for the closed-source executable and libraries of Horizon Sandbox to load, link against, and execute this program or mods derived from it via dynamic assembly loading, without triggering the copyleft obligations of the GNU Affero General Public License on the core game itself. This exception applies solely to the base game engine and its native files; any community mods utilizing these bindings must remain fully open-source under the AGPLv3.
