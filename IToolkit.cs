@@ -2,6 +2,6 @@
 
 public interface IToolkit
 {
-    void RegisterObjects(); // TODO: Create IObject so this works
-    void UnregisterObjects();
+    ObjectWarehouse ObjectWarehouse { get; }
+    T LoadAsset<T>(string relativePath) where T : UnityEngine.Object;
 }
